@@ -20,6 +20,16 @@
     margin:2%;
 }
 
+#character{
+    display:flex;
+    flex:1;
+}
+
+#chat-content{
+    display:flex;
+    flex:6;
+}
+
 #keyboard{
     background-color: pink;
     display:flex;
