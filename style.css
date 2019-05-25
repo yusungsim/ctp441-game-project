@@ -44,3 +44,10 @@
     background: white;
     margin: 2%;
 }
+
+#notice {
+    display: flex;
+    flex: 1;
+    background-color: cornflowerblue;
+    color: white;
+}
