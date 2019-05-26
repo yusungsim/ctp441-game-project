@@ -13,7 +13,7 @@
     margin: 2%;
 }
 
-#chatbox{
+.chatbox{
     display:flex;
     flex-direction: row;
     background-color: white;
@@ -40,10 +40,11 @@
     margin-top: auto;
 }
 
-#selection{
+#selection, #G{
     background: white;
     margin: 2%;
 }
+
 
 #notice {
     display: flex;

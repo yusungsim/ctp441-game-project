@@ -9,10 +9,6 @@ var c1 = document.getElementById("c1");
 var c2 = document.getElementById("c2");
 var c3 = document.getElementById("c3");
 var c4 = document.getElementById("c4");
-var c5 = document.getElementById("c5");
-var c6 = document.getElementById("c6");
-var c7 = document.getElementById("c7");
-var c8 = document.getElementById("c8");
 var key = document.getElementById("keyboard");
 
 var chatlist = [];
@@ -20,16 +16,13 @@ chatlist.push(c1);
 chatlist.push(c2);
 chatlist.push(c3);
 chatlist.push(c4);
-chatlist.push(c5);
-chatlist.push(c6);
-chatlist.push(c7);
-chatlist.push(c8);
-for (var i = 0; i < 8; i++) {
+
+for (var i = 0; i < 4; i++) {
     chatlist[i].style.display = 'none';
 }
 key.style.display = 'none';
-for (var i = 0; i < 8; i++) {
+for (var i = 0; i < 4; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
-showTheChat(key, 8 * 2000);
+showTheChat(key, 4 * 2000);
 
