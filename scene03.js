@@ -13,7 +13,7 @@ var c5 = document.getElementById("c5");
 var c6 = document.getElementById("c6");
 var c7 = document.getElementById("c7");
 var c8 = document.getElementById("c8");
-var c8 = document.getElementById("c9");
+var c9 = document.getElementById("c9");
 var key = document.getElementById("keyboard");
 
 var chatlist = [];

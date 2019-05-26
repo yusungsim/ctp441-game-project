@@ -27,14 +27,11 @@ chatlist.push(c5);
 chatlist.push(c6);
 chatlist.push(c7);
 chatlist.push(c8);
-chatlist.push(c9);
-chatlist.push(c10);
-chatlist.push(c11);
 
-for (var i = 0; i < 11; i++) {
+for (var i = 0; i < 8; i++) {
     chatlist[i].style.display = 'none';
 }
-for (var i = 0; i < 11; i++) {
+for (var i = 0; i < 8; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
 
