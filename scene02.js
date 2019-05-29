@@ -8,14 +8,12 @@ function showTheChat(chat, sec) {
 var c1 = document.getElementById("c1");
 var c2 = document.getElementById("c2");
 var c3 = document.getElementById("c3");
-var c4 = document.getElementById("c4");
 var key = document.getElementById("keyboard");
 
 var chatlist = [];
 chatlist.push(c1);
 chatlist.push(c2);
 chatlist.push(c3);
-chatlist.push(c4);
 
 for (var i = 0; i < 4; i++) {
     chatlist[i].style.display = 'none';
