@@ -15,6 +15,8 @@ var c7 = document.getElementById("c7");
 var c8 = document.getElementById("c8");
 var c9 = document.getElementById("c9");
 var key = document.getElementById("keyboard");
+var selection = document.getElementById("selection");
+var next_move = "./scene10.html?";
 
 var chatlist = [];
 chatlist.push(c1);
@@ -34,4 +36,9 @@ for (var i = 0; i < 9; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
 showTheChat(key, 9 * 2000);
+selection.addEventListener('click', function (e) {
+    next_move += "op=T";
+    location.href = next_move;
+});
+
 
