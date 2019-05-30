@@ -14,7 +14,7 @@ var G = document.getElementById("G");
 key.style.display = 'none';
 function filter() {
     var splitedLoc = loc.split("?");
-    if (splitedLoc[1] == "op=T") {
+    if (splitedLoc[1] != "op=T") {
         G.innerHTML = '';
     }
 }
