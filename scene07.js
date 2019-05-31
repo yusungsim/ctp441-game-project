@@ -2,7 +2,7 @@
 // has finished loading in the browser.
 function showTheChat(chat, sec) {
     setTimeout(function () {
-        chat.style.display = "block";
+        chat.style.display = "flex";
     }, sec);
 }
 var c1 = document.getElementById("c1");

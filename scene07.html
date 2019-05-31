@@ -4,52 +4,61 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="chatroom">
-            <div id="chatlist">
-                <div class ="chatbox"
-                     id="c1">
-                    <div id="character">
-                        Player
-                    </div>
-                    <div id="chat-content">
+        <div class="chat-room">
+            <div class="chat-room-title">
+                <h2>Class Group Chat</h2>
+                <img src="icon/search.png">
+                <img src="icon/menu.png">
+            </div>
+            <div class="chat-list">
+                <div class="chat-box" id="c1">
+                    <div class="chat-text-player">
                         Hey, the teacher just asked me
                     </div>
                 </div>
-                <div class ="chatbox"
-                     id="c2">
-                    
-                    <div id="chat-content">
+                <div class="chat-box" id="c2">
+                    <div class="chat-text-player">
                         We need to decide on what to do at the school trip
                     </div>
                 </div>
-                <div class ="chatbox"
-                     id="c3">
-                    
-                    <div id="chat-content">
+                <div class="chat-box" id="c3">
+                    <div class="chat-text-player">
                         U know.. the talent show?
                     </div>
                 </div>
-            <div class ="chatbox"
-                 id="c4">
-                <div id="character">
-                    Minjoo
+            <div class="chat-box" id="c4">
+                <div class="chat-name">
+                    <img src="profilepic/minjoo.png">
+                    <div class="name-text">
+                        MinJoo
+                    </div>
                 </div>
-                <div id="chat-content">
+                <div class="chat-text">
                     omg.. I totally forgot about that
                 </div>
             </div>
-            <div class ="chatbox"
-                 id="c5">
-                <div id="character">
-                    YoungSeok
+            <div class="chat-box" id="c5">
+                <div class="chat-name">
+                    <img src="profilepic/yongsuk.png">
+                    <div class="name-text">
+                        Yongsuk
+                    </div>
                 </div>
-                <div id="chat-content">
+                <div class="chat-text">
                     Oh, I have a great idea!
                 </div>
             </div>
-            <div id="c6">
-                <a href="./scene_epilogue.html?1">Next</a>
+            <div class="chat-box" id="c6">
+                <div class="chat-choice">
+                    <button onclick="location.href='./scene_epilogue.html?1'">
+                        Next...
+                    </button>
+                </div>
             </div>
+        </div>
+        <div class="chat-keyboard">
+            <img src="icon/add.png">
+            <div class="chat-keyboard-type"> </div>
         </div>
     </div>
         <script src="./scene07.js"></script>

@@ -2,7 +2,7 @@
 // has finished loading in the browser.
 function showTheChat(chat, sec) {
     setTimeout(function () {
-        chat.style.display = "block";
+        chat.style.display = "flex";
     }, sec);
 }
 var c1 = document.getElementById("c1");
@@ -14,9 +14,7 @@ var c6 = document.getElementById("c6");
 var c7 = document.getElementById("c7");
 var c8 = document.getElementById("c8");
 var c9 = document.getElementById("c9");
-var key = document.getElementById("keyboard");
-var selection = document.getElementById("selection");
-var next_move = "./scene10.html?";
+var c10 = document.getElementById("c10");
 
 var chatlist = [];
 chatlist.push(c1);
@@ -28,17 +26,13 @@ chatlist.push(c6);
 chatlist.push(c7);
 chatlist.push(c8);
 chatlist.push(c9);
-for (var i = 0; i < 9; i++) {
+chatlist.push(c10);
+for (var i = 0; i < 10; i++) {
     chatlist[i].style.display = 'none';
 }
-key.style.display = 'none';
-for (var i = 0; i < 9; i++) {
+
+for (var i = 0; i < 10; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
-showTheChat(key, 9 * 2000);
-selection.addEventListener('click', function (e) {
-    next_move += "op=T";
-    location.href = next_move;
-});
 
 

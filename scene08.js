@@ -2,7 +2,7 @@
 // has finished loading in the browser.
 function showTheChat(chat, sec) {
     setTimeout(function () {
-        chat.style.display = "block";
+        chat.style.display = "flex";
     }, sec);
 }
 var c1 = document.getElementById("c1");
@@ -24,6 +24,7 @@ chatlist.push(c5);
 chatlist.push(c6);
 chatlist.push(c7);
 chatlist.push(c8);
+
 for (var i = 0; i < 8; i++) {
     console.log(i);
     chatlist[i].style.display = 'none';

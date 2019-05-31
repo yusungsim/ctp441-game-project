@@ -2,21 +2,18 @@
 // has finished loading in the browser.
 function showTheChat(chat, sec) {
     setTimeout(function () {
-        chat.style.display = "block";
+        chat.style.display = "flex";
     }, sec);
 }
-var key = document.getElementById("keyboard");
 
 var sel = document.getElementById("selection");
 var loc = document.location.href;
 var G = document.getElementById("G");
 
-key.style.display = 'none';
 function filter() {
     var splitedLoc = loc.split("?");
     if (splitedLoc[1] != "op=T") {
-        G.innerHTML = '';
+        G.style.display='none';
     }
 }
 filter();
-key.style.display = 'block';

@@ -4,90 +4,121 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="chatroom">
-            <div id="chatlist">
-                <div class="chatbox" id="c1">
-                    <div id="character">
-                        YoungSuk
+        <div class="chat-room">
+            <div class="chat-room-title">
+                <h2>Class Group Chat</h2>
+                <img src="icon/search.png">
+                <img src="icon/menu.png">
+            </div>
+            <div class="chat-list">
+                <div class="chat-box"id="c1">
+                    <div class="chat-name">
+                        <img src="profilepic/yongsuk.png">
+                        <div class="name-text">
+                            Yongsuk
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
+                        <img src="./picture01.jpg">
                         hey guys? I was going through some photos and looks what I found!
                     </div>
                 </div>
-                <div class="chatbox" id="c2">
-                    <div id="character">
-                        SeoYeon
+                <div class="chat-box"id="c2">
+                    <div class="chat-name">
+                        <img src="profilepic/seoyeon.png">
+                        <div class="name-text">
+                            SeoYeon
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         OMG, isn't that the stolen bracelet?
                     </div>
                 </div>
-                <div id="c3" class="chatbox">
-                    <div id="character">
-                        YoungSuk
+                <div class="chat-box" id="c3">
+                    <div class="chat-name">
+                        <img src="profilepic/yongsuk.png">
+                        <div class="name-text">
+                            Yongsuk
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         yep! It must be the theif
                     </div>
                 </div>
-                <div id="c4" class="chatbox">
-                    <div id="character">
-                        SiWoo
+                <div id="c4"class="chat-box">
+                    <div class="chat-name">
+                        <img src="profilepic/siwoo.png">
+                        <div class="name-text">
+                            SiWoo
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         but who is it?? The pic is really blurry
                     </div>
                 </div>
-                <div id="c5" class="chatbox">
-                    <div id="character">
-                        MinJoo
+                <div class="chat-box" id="c5">
+                    <div class="chat-name">
+                        <img src="profilepic/minjoo.png">
+                        <div class="name-text">
+                            MinJoo
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         Who wore the brown shirt that day?
                     </div>
                 </div>
-                <div id="c6" class="chatbox">
-                    <div id="character">
-                        YoungSuk
+                <div class="chat-box" id="c6">
+                    <div class="chat-name">
+                        <img src="profilepic/yongsuk.png">
+                        <div class="name-text">
+                            Yongsuk
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         Wasn't it HyunJun?
                     </div>
                 </div>
-                <div id="c7" class="chatbox">
-                    <div id="character">
-                        SiWoo
+                <div class="chat-box" id="c7">
+                    <div class="chat-name">
+                        <img src="profilepic/siwoo.png">
+                        <div class="name-text">
+                            SiWoo
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         No, no. HyunJun wasn't there. Is it DoJun??
                     </div>
                 </div>
-                <div id="c8" class="chatbox">
-                    <div id="character">
-                        MinJoo
+                <div class="chat-box" id="c8">
+                    <div class="chat-name">
+                        <img src="profilepic/minjoo.png">
+                        <div class="name-text">
+                            MinJoo
+                        </div>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         Was DoJun there?
                     </div>
                 </div>
-                
-            </div>
-            <div id="keyboard">
-                <div id="c9">
-                    <div id="character">
-                        Player
-                    </div>
-                    <div id="notice">
-                        What am I supposed to do..?
+                <div class="chat-box" id="c4">
+                    <div class="chat-choice">
+                        <button onclick="location.href='./scene07.html'" id=selection>
+                            A. Change the subject
+                        </button>
+                        <button onclick="location.href='./scene08.html'" id=selection>
+                            B. Stand up for DoJun
+                        </button>
+                        <button onclick="location.href='./scene09.html'" id=G>
+                            C. Tell everyone that HyunJun said
+                        </button>
                     </div>
                 </div>
-                <a href="./scene07.html"><div id="selection">A. Change the subject</div></a>
-                <a href="./scene08.html">
-                    <div id="selection">B. stand up for Do Jun</div>
-                </a>
-                <a href="./scene09.html"><div id="G">C. Tell everyone that HyunJun said</div></a>
+            </div>
+            <div class="chat-keyboard">
+                <img src="icon/add.png">
+                <div class="chat-keyboard-type"> </div>
             </div>
         </div>
-        <script src="scene10.js"></script>
+        <script src="./scene10.js"></script>
     </body>
 </html>

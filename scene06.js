@@ -2,7 +2,7 @@
 // has finished loading in the browser.
 function showTheChat(chat, sec) {
     setTimeout(function () {
-        chat.style.display = "block";
+        chat.style.display = "flex";
     }, sec);
 }
 var c1 = document.getElementById("c1");
@@ -13,10 +13,6 @@ var c5 = document.getElementById("c5");
 var c6 = document.getElementById("c6");
 var c7 = document.getElementById("c7");
 var c8 = document.getElementById("c8");
-var c9 = document.getElementById("c9");
-var c10 = document.getElementById("c10");
-var c11 = document.getElementById("c11");
-
 
 var chatlist = [];
 chatlist.push(c1);

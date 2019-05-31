@@ -4,21 +4,38 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="chatroom">
-            <div id="chatlist">
-                <div class="chatbox" id="c1">
-                    <div id="character">
-                        Teacher
+        <div class="chat-room">
+            <div class="chat-room-title">
+                <h2>Chat with Teacher</h2>
+                <img src="icon/search.png">
+                <img src="icon/menu.png">
+            </div>
+            <div class="chat-list">
+                <div class="chat-box" id="c1">
+                    <div class="chat-name">
+                        <img src="profilepic/teacher.png">
+                        <div class="name-text">
+                            Teacher
+                        </div class>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         How's the investigation going?
                     </div>
                 </div>
-
+                <div class="chat-box" id="c2">
+                    <div class="chat-choice">
+                        <button onclick="location.href='./scene05.html'">
+                            A. Answer Vaguely
+                        </button>
+                        <button onclick="location.href='./scene06.html'">
+                            B. Tell her everything
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div id="keyboard">
-                <a href="./scene05.html"><div id="selection">A. Answer Vaguely</div></a>
-                <a href="./scene06.html"><div id="selection">B. Tell her everything</div></a>
+            <div class="chat-keyboard">
+                <img src="icon/add.png">
+                <div class="chat-keyboard-type"> </div>
             </div>
         </div>
         <script src="./scene04.js"></script>

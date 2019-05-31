@@ -4,67 +4,83 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="chatroom">
-            <div id="chatlist">
-                <div class="chatbox" id="c1">
-                    <div id="character">
-                        Player
-                    </div>
-                    <div id="chat-content">
+        <div class="chat-room">
+            <div class="chat-room-title">
+                <h2>Chat with Teacher</h2>
+                <img src="icon/search.png">
+                <img src="icon/menu.png">
+            </div>  
+            <div class="chat-list">
+                <div class="chat-box" id="c1">
+                    <div class="chat-text-player">
                         I don't know for sure yet.
                     </div>
                 </div>
-                <div class="chatbox" id="c2">
-                    <div id="character">
-                        Player
-                    </div>
-                    <div id="chat-content">
+                <div class="chat-box" id="c2">
+                    <div class="chat-text-player">
                         But there is a chance that it is DoJun.
                     </div>
                 </div>
-                <div class="chatbox" id="c3">
-                    <div id="character">
-                        Player
-                    </div>
-                    <div id="chat-content">
+                <div class="chat-box" id="c3">
+                    <div class="chat-text-player">
                         Not really sure though...
                     </div>
                 </div>
-                <div class="chatbox" id="c4">
-                    <div id="character">
-                        Teacher
+                <div class="chat-box" id="c4">
+                    <div class="chat-name">
+                        <img src="profilepic/teacher.png">
+                        <div class="name-text">
+                            Teacher
+                        </div class>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         Very well.
                     </div>
                 </div>
-                <div class="chatbox" id="c5">
-                    <div id="character">
-                        Teacher
+                <div class="chat-box" id="c5">
+                    <div class="chat-name">
+                        <img src="profilepic/teacher.png">
+                        <div class="name-text">
+                            Teacher
+                        </div class>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         I'll ask him in person
                     </div>
                 </div>
-                <div class="chatbox" id="c6">
-                    <div id="character">
-                        Teacher
+                <div class="chat-box" id="c6">
+                    <div class="chat-name">
+                        <img src="profilepic/teacher.png">
+                        <div class="name-text">
+                            Teacher
+                        </div class>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         Thank you for looking into it.
                     </div>
                 </div>
-                <div class="chatbox" id="c7">
-                    <div id="character">
-                        Teacher
+                <div class="chat-box" id="c7">
+                    <div class="chat-name">
+                        <img src="profilepic/teacher.png">
+                        <div class="name-text">
+                            Teacher
+                        </div class>
                     </div>
-                    <div id="chat-content">
+                    <div class="chat-text">
                         Good job.
                     </div>
                 </div>
+                <div class="chat-box" id="c8">
+                    <div class="chat-choice">
+                        <button onclick="location.href='./scene_epilogue.html?0'">
+                            Next...
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div id="c8">
-                <a href="./scene_epilogue.html?1">Next</a>
+            <div class="chat-keyboard">
+                <img src="icon/add.png">
+                <div class="chat-keyboard-type"> </div>
             </div>
         </div>
         <script src="./scene06.js"></script>
