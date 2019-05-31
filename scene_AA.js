@@ -13,9 +13,6 @@ var c5 = document.getElementById("c5");
 var c6 = document.getElementById("c6");
 var c7 = document.getElementById("c7");
 var c8 = document.getElementById("c8");
-var noti = document.getElementById("noti");
-var ch1 = document.getElementById("ch1");
-var ch2 = document.getElementById("ch2");
 
 var chatlist = [];
 chatlist.push(c1);
@@ -29,15 +26,8 @@ chatlist.push(c8);
 for (var i = 0; i < 8; i++) {
     chatlist[i].style.display = 'none';
 }
-noti.style.display = 'none';
-ch1.style.display = 'none';
-ch2.style.display = 'none';
-
 
 for (var i = 0; i < 8; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
-showTheChat(noti, 8 * 2000);
-showTheChat(ch1, 8 * 2000);
-showTheChat(ch2, 8 * 2000);
 
