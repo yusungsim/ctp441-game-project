@@ -8,6 +8,13 @@ body{
     margin: 0px;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
 .chat-room{
     /*outline: 5px solid #ffffff;*/
     width: 50%;
@@ -86,6 +93,13 @@ body{
     margin: 0.25rem;
 }
 
+.chat-box button{
+    display:flex;
+    flex:7;
+    padding: 2%;
+    margin-left: 4%;
+}
+
 .chat-keyboard{ 
     display:flex;
     flex-direction: row;
@@ -108,6 +122,11 @@ body{
 
 .chat-keyboard img{
     margin-left: 2%;
+}
+
+.title .notice {
+    font-size: 120%;
+    text-align: center;
 }
 
 .notice{
@@ -139,18 +158,36 @@ body{
     padding-bottom: 2.5%;
 }
 
+.notice .title{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: cornflowerblue;
+    color:white;
+}
+
+.notice .title-button{
+    display:flex;
+    margin: 10%;
+    height:5rem;
+}
+
 button{
     display:flex;
     justify-content: center;
     align-items: center;
     flex:1;
-    height: 2rem;
+    height: 4rem;
     margin-left:2.5%;
     border-radius: 0.5rem;
     border: 0px;
     background-color: cornflowerblue;
     color:white;
     font-weight: bold;
+    font-size: medium;
 }
 
 button:hover{
