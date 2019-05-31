@@ -9,10 +9,8 @@ body{
 .chat-room{
     outline: 5px solid #ffffff;
     width: 30em;
-    height: 100%;
     margin: auto;
     display:flex;
-    flex:1;
     flex-direction: column;
     flex-flow: column nowrap;
     background-color: #ffee58;
@@ -50,27 +48,41 @@ body{
 .chat-list .chat-box{
     display:flex;
     flex-direction: row;
+    align-items: flex-start;
     margin-top: 3%;
 }
 
 .chat-list .chat-box .chat-name{
     display:flex;
-    flex:2;
-    justify-content: center;
+    flex:1;
+    flex-direction: column;
     align-items: center;
-    border-radius: 1rem;
-    background-color: rgb(255, 139, 31);
-    color: white;
     font-weight: bold;
+}
+
+.chat-list .chat-box .chat-name .picture{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.chat-list .chat-box .chat-name .picture img{
+    display:flex;
+    flex-direction: column;
+    width: 4rem;
+    margin: 0.3rem;
+}
+
+.chat-list .chat-box .chat-name .name-text{
+    color: black;
 }
 
 .chat-list .chat-box .chat-text{
     display:flex;
     flex-direction: column;
     flex:7;
-    padding: 1rem;
+    padding: 2%;
     margin-left: 2%;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: white;
 }
 
