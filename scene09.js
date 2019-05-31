@@ -16,6 +16,7 @@ var c8 = document.getElementById("c8");
 var c9 = document.getElementById("c9");
 var c10 = document.getElementById("c10");
 var c11 = document.getElementById("c11");
+var c12 = document.getElementById("c12");
 
 
 var chatlist = [];
@@ -30,11 +31,12 @@ chatlist.push(c8);
 chatlist.push(c9);
 chatlist.push(c10);
 chatlist.push(c11);
+chatlist.push(c12);
 
-for (var i = 0; i < 11; i++) {
+for (var i = 0; i < 12; i++) {
     chatlist[i].style.display = 'none';
 }
-for (var i = 0; i < 11; i++) {
+for (var i = 0; i < 12; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
 
