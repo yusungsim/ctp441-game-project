@@ -12,6 +12,7 @@ var c4 = document.getElementById("c4");
 var c5 = document.getElementById("c5");
 var c6 = document.getElementById("c6");
 var c7 = document.getElementById("c7");
+var c8 = document.getElementById("c8");
 
 
 var chatlist = [];
@@ -22,11 +23,12 @@ chatlist.push(c4);
 chatlist.push(c5);
 chatlist.push(c6);
 chatlist.push(c7);
-for (var i = 0; i < 7; i++) {
+chatlist.push(c8);
+for (var i = 0; i < 8; i++) {
     console.log(i);
     chatlist[i].style.display = 'none';
 }
-for (var i = 0; i < 7; i++) {
+for (var i = 0; i < 8; i++) {
     showTheChat(chatlist[i], i * 2000);
 }
 
