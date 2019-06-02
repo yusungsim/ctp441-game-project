@@ -6,6 +6,7 @@ var chatlist = [];
 function showTheChat(chat, sec) {
     setTimeout(function () {
         chat.style.display = "flex";
+        chat.scrollIntoView(false);
     }, sec);
 }
 

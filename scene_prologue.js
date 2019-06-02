@@ -3,6 +3,7 @@
 function showTheChat(chat, sec) {
     setTimeout(function () {
         chat.style.display = "flex";
+        chat.scrollIntoView(false);
     }, sec);
 }
 var c1 = document.getElementById("c1");
@@ -28,5 +29,5 @@ for (var i = 0; i < 8; i++) {
 }
 
 for (var i = 0; i < 8; i++) {
-    showTheChat(chatlist[i], i * 2000);
+    showTheChat(chatlist[i], i * 3000);
 }
